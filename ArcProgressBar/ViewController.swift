@@ -10,8 +10,13 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        super.viewDidLoad();
+        let arcProgressBar = ArcProgressBar();
+        arcProgressBar.center = view.center;
+        arcProgressBar.backgroundColor = .clear;
+        view.addSubview(arcProgressBar);
+        arcProgressBar.progress = 15;
+        arcProgressBar.maxProgress = 120;
     }
 
 

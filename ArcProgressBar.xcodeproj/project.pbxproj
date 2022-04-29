@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B138191281C090300371D16 /* ArcProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B13818F281C090300371D16 /* ArcProgressBar.swift */; };
+		2B138192281C090300371D16 /* ArcProgressBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B138190281C090300371D16 /* ArcProgressBar.xib */; };
 		2BD0369B281C06470037242E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD0369A281C06470037242E /* AppDelegate.swift */; };
 		2BD0369D281C06470037242E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD0369C281C06470037242E /* SceneDelegate.swift */; };
 		2BD0369F281C06470037242E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD0369E281C06470037242E /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B13818F281C090300371D16 /* ArcProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcProgressBar.swift; sourceTree = "<group>"; };
+		2B138190281C090300371D16 /* ArcProgressBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArcProgressBar.xib; sourceTree = "<group>"; };
 		2BD03697281C06470037242E /* ArcProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD0369A281C06470037242E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BD0369C281C06470037242E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		2BD03699281C06470037242E /* ArcProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				2B13818F281C090300371D16 /* ArcProgressBar.swift */,
+				2B138190281C090300371D16 /* ArcProgressBar.xib */,
 				2BD0369A281C06470037242E /* AppDelegate.swift */,
 				2BD0369C281C06470037242E /* SceneDelegate.swift */,
 				2BD0369E281C06470037242E /* ViewController.swift */,
@@ -127,6 +133,7 @@
 				2BD036A7281C064E0037242E /* LaunchScreen.storyboard in Resources */,
 				2BD036A4281C064E0037242E /* Assets.xcassets in Resources */,
 				2BD036A2281C06470037242E /* Main.storyboard in Resources */,
+				2B138192281C090300371D16 /* ArcProgressBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 				2BD0369F281C06470037242E /* ViewController.swift in Sources */,
 				2BD0369B281C06470037242E /* AppDelegate.swift in Sources */,
 				2BD0369D281C06470037242E /* SceneDelegate.swift in Sources */,
+				2B138191281C090300371D16 /* ArcProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
