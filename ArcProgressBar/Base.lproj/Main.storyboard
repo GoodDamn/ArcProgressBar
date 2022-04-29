@@ -36,7 +36,7 @@
                                         <real key="value" value="155"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="maxProgress">
-                                        <real key="value" value="100"/>
+                                        <real key="value" value="230"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="progress">
                                         <real key="value" value="15"/>
