@@ -9,16 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var arcProgressBar: ArcProgressBar!;
+    
     override func viewDidLoad() {
         super.viewDidLoad();
-        let arcProgressBar = ArcProgressBar();
-        arcProgressBar.center = view.center;
         arcProgressBar.backgroundColor = .clear;
-        view.addSubview(arcProgressBar);
-        arcProgressBar.progress = 15;
-        arcProgressBar.maxProgress = 120;
+        
+        arcProgressBar.arcWidth = 15.0;
+        arcProgressBar.startAngle = 35.0;
+        arcProgressBar.endAngle = 180.0;
+        arcProgressBar.progress = 35.0;
+        arcProgressBar.maxProgress = 230.0;
+        arcProgressBar.arcBackground = .brown;
+        arcProgressBar.tintColor = .purple;
     }
-
 
 }
 
