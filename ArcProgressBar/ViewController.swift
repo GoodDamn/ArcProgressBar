@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         arcProgressBar.arcWidth = 7.0;
         arcProgressBar.startAngle = -180.0;
         arcProgressBar.endAngle = 90.0;
-        arcProgressBar.progress = 135.0;
+        arcProgressBar.progress = 185.0;
         arcProgressBar.maxProgress = 230.0;
         arcProgressBar.arcBackground = .gray;
         arcProgressBar.tintColor = .green;
